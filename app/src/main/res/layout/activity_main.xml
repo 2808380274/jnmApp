@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.administrator.anew.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="bottom">
+
+            <com.example.administrator.anew.UI.wight.FontTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="新闻哈哈"
+                android:textSize="28dp"
+                android:layout_margin="3dp"
+                app:font_path="font/cute.ttf" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+    <com.ashokvarma.bottomnavigation.BottomNavigationBar
+        android:id="@+id/bottom_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bnbActiveColor="@color/colorPrimary"
+        app:bnbMode="mode_fixed"
+        />
+
+</LinearLayout>

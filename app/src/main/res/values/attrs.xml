@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView1">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="FontTextView">
+        <attr name="font_path" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="FontTextLayout">
+        <attr name="ftl_font_path" format="string"/>
+    </declare-styleable>
+</resources>

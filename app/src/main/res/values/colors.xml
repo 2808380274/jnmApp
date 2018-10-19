@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e90a0a</color>
+    <color name="colorPrimaryDark">#e90a0a</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorNavigation">#17CFB5</color>
+    <color name="colorCommonSelector_press">#322bcea6</color>
+    <color name="colorCommonSelector_normal">#FFFFFF</color>
+
+    <color name="gray">#666666</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#333333</color>
+    <color name="orange">#FFA500</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="greens">#4cbfb5</color>
+    <color name="text_green">#00a496</color>
+    <color name="horizontal_line">#e5e5e5</color>
+    <color name="footer_text_color_selected">#00a496</color>
+    <color name="footer_text_color_normal">#c9c9c9</color>
+    <color name="light_gray">#999999</color>
+    <color name="app_bg">#f9f9f9</color>
+    <color name="pay_red">#e35151</color>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="activity_bg_color">#fffafafa</color>
+    <color name="top_category_bar_background">#ffeeeeee</color>
+    <color name="divider">#ffdddddd</color>
+
+    <color name="category_tab_text">#ff707070</color>
+    <color name="category_tab_text_dark">#fffafafa</color>
+    <color name="category_tab_highlight_text">#fffafafa</color>
+    <color name="category_tab_highlight_text_dark">#ffd43d3d</color>
+    <color name="category_tab_highlight_bg">#ffd43d3d</color>
+    <color name="category_tab_highlight_dark_bg">#fffafafa</color>
+    <color name="black_text">#665c5e</color>
+</resources>

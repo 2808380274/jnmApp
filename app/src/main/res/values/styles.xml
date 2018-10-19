@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--自己声明一个全屏的主题  parent 父主题是 AppTheme 其他的设置都从AppTheme这个主题里来
+              只修改其中的windowFullscreen这个属性-->
+    <style name="MyFullScreenStyle" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <!-- windowFullscreen  设置全屏-->
+
+        <!--  <item name="android:windowNoTitle">true</item>--> 设置无标题-->
+    </style>
+    <style name="splitLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/colorNavigation</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="pop_text_style">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="contextpopAnim" parent="@android:style/Animation.Activity">
+    <item name="android:windowEnterAnimation">@anim/context_menu_enter</item>
+    <item name="android:windowExitAnimation">@anim/context_menu_exit</item>
+    </style>
+</resources>

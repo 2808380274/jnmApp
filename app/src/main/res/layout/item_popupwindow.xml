@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingBottom="2dp">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.25dp"
+        android:background="#fa7829"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/pop_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/pop_text_style"
+        android:text="相册"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/list_line"/>
+
+    <TextView
+        android:id="@+id/pop_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/pop_text_style"
+        android:text="照相"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/list_line"/>
+
+    <TextView
+        android:id="@+id/pop_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/pop_text_style"
+        android:text="退出"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>
