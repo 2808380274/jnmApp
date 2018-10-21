@@ -3,14 +3,6 @@ package com.example.administrator.anew.Utils;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * 项目名 : PracticalDemo
- * 包名 : cn.dragoliu.practicaldemo.utils
- * 文件名 : SPUtils
- * 创建者 : Kyle
- * 创建时间 : 2018-01-26
- * 描述 : SharedPreferences封装
- */
 
 public class SPUtils {
 
